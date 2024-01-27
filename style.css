@@ -1,0 +1,327 @@
+* {
+    list-style: none;
+
+}
+
+body {
+    margin: 0px;
+}
+
+/*---------------------start header --------*/
+
+nav {
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 206px;
+    height: 101.758px;
+    background: url(<path-to-image>), rgb(253, 253, 253) -41.463px -5.653px / 138.5% 135.556% no-repeat;
+}
+
+span {
+    color: #FA4A0C
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    padding: 14px;
+    flex-wrap: wrap;
+}
+
+/*----------------start second ----------*/
+
+.second {
+    padding-top: 73px;
+}
+
+.ultimate {
+    background-image: url(./images/Rectangle\ 48.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second p {
+    color: #F6F6F6;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.buttons {
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+}
+
+.buttons .button_1 {
+    display: flex;
+    width: 236px;
+    padding: 16px 0px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.20);
+    border: none;
+    color: var(--Light-text, #FFF);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.buttons .button_2 {
+    display: flex;
+    width: 236px;
+    padding: 16px 0px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid #a29b9b;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.1px;
+}
+
+.second h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.images .img1 {
+    width: 299px;
+    height: 586px;
+}
+
+.images .img2 {
+    width: 285px;
+    height: 531px;
+}
+
+.fit {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.fit img {
+    width: 100%;
+}
+
+.textes_p1 {
+    color: #FA4A0C;
+}
+
+.secondwork_1h1 {
+    text-align: center;
+}
+
+.secondwork hr {
+    width: 884px;
+    height: 3px;
+    background: #E4E4E4;
+    margin-top: 168px;
+    flex-wrap: wrap;
+}
+
+.secondwork_1h1 {
+    margin-top: 72px;
+    flex-wrap: wrap;
+}
+
+p {
+    flex-wrap: wrap;
+}
+
+h1 {
+    flex-wrap: wrap;
+}
+
+.fet {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.fet img {
+    width: 100%;
+}
+
+
+.final_owner {
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 80%;
+    align-items: center;
+}
+
+
+.final_owner img {
+    width: 100%;
+}
+
+
+/*---------------------start second --------*/
+
+
+/*---------------------finish second --------*/
+
+
+
+
+
+/*---------------------start final --------*/
+
+.final{
+    background-image: url(./images/Rectangle\ 47.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.in_final h2{
+    padding-top: 145px;
+    color: var(--Light-text, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+.in_final p{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px; /* 158.333% */
+    letter-spacing: 0.2px;
+}
+.buttns{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    gap: 34px;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 133px;
+}
+
+
+.buttns_button3 {
+    display: flex;
+    padding: 18px 31px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: #FA4A0C;
+    border: none;
+}
+.buttns_button4{
+    display: flex;
+    padding: 16px 45px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--Light-background, #7c7979);
+}
+
+/*---------------------finish second --------*/
+.fianlly{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 84px;
+    flex-wrap: wrap;
+}
+.icons{
+ margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .images {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    nav ul li{
+        margin-right: 50px;
+    }
+
+    .fit {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .fit img {
+        width: 100%;
+        margin-left: 35px;
+    }
+
+    .textes {
+        text-align: center;
+        margin-bottom: 140px;
+    }
+
+    .fet {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .fet img {
+        width: 100%;
+        margin-left: 35px;
+    }
+
+    .secondwork hr {
+        width: 300px;
+    }
+
+    .secondwork_1h1 {
+        text-align: center;
+    }
+
+    .final_owner img {
+        width: 100%;
+        margin-left: 35px;
+    }
+
+    .final_owner {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .buttns{
+        margin-left: 30px;
+    }
+   .icons{
+    margin-bottom: 20px;
+    margin-left: 50px;
+   }
+}
